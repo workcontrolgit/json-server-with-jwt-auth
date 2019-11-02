@@ -67,9 +67,10 @@ server.get('/verify', verify);
 
 // Start JSON Server
 server.use(router);
-server.listen(yargs.argv.port, () => {
+const port = process.env.PORT || yargs.argv.port
+server.listen(port, () => {
   console.log(`
-JSON Server is running on port ${yargs.argv.port}
-http://localhost:${yargs.argv.port}
+JSON Server is running on port ${port}
+http://localhost:${port}
 `)
 });
