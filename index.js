@@ -65,6 +65,11 @@ server.use(delayMiddleware);
 const verify = require('./routes/verify-route');
 server.get('/verify', verify);
 
+// Token authorize route
+const authorize = require('./routes/authorize-route');
+server.get('/authorize', authorize);
+
+
 // Start JSON Server
 server.use(router);
 const port = process.env.PORT || yargs.argv.port
