@@ -1,4 +1,5 @@
 
 {
-    "appService.deploySubpath": ""
+    "appService.deploySubpath": "",
+    "appService.defaultWebAppToDeploy": "/subscriptions/7c6c9915-29a6-4a5f-a8a9-775c81a780ca/resourceGroups/hrexappRG/providers/Microsoft.Web/sites/mockwebapi"
 }

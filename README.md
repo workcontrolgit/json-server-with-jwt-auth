@@ -8,13 +8,13 @@ You get information about "JSON-Server" in https://github.com/typicode/json-serv
 
 Enter this command to start your API REST server:
 
-```node index```
+```node server```
 
 In this case, JSON server starts on Port 3000 and uses a json file the path: "json-samples/default.json".
 
 Port configuration and JSON file can be configured via args:
 
-```node index --file=./json-samples/series.json --port=3333```
+```node server --file=./json-samples/series.json --port=3333```
 
 ### Auth system routes
 
@@ -40,7 +40,7 @@ Users are stored in memory. So, all users are deleted in server restarts. When t
 * email: user@example.com
 * password: 1234
 
-You can edit the file index.js to configure this user with other data, or setup another users on application start.
+You can edit the file server.js to configure this user with other data, or setup another users on application start.
 
 ### API Authenticated routes vs API Public routes
 
