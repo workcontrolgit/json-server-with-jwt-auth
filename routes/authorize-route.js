@@ -14,8 +14,8 @@ module.exports = function (req, res) {
     };
     delay(1).then(() => {
         console.log('Login Data Valid');
-        const token = jwt.tokenGeneration(session);
-        res.status(200).json(token);
+        const access_token = jwt.tokenGeneration(session);
+        res.status(200).json({access_token});
     });
 
     function createGuid(){  
