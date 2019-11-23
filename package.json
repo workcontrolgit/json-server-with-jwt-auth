@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server --file=./json-samples/marcadores.json --port=3333 --authentication=no",
-    "startauth": "node server --file=./json-samples/marcadores.json --port=3333"
+    "start": "node server --file=./json-samples/datastore.json --port=3333 --authentication=no",
+    "startauth": "node server --file=./json-samples/datastore.json --port=3333"
   },
   "repository": {
     "type": "git",

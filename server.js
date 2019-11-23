@@ -71,7 +71,7 @@ server.get('/authorize', authorize);
 
 
 // Start JSON Server
-server.use(router);
+server.use('/api/v1', router);
 const port = process.env.PORT || yargs.argv.port
 server.listen(port, () => {
   console.log(`
