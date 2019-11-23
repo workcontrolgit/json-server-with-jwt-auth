@@ -9,7 +9,7 @@ yargs.options({
   file: {
     alias: 'f',
     description: 'Set JSON File',
-    default: './json-samples/marcadores.json'
+    default: './json-samples/datastore.json'
   },
   authentication: {
     alias: 'a',
