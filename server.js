@@ -14,7 +14,7 @@ yargs.options({
   authentication: {
     alias: 'a',
     description: 'Enable authenticaded routes',
-    default: 'true'
+    default: 'false'
   },
   delay: {
     alias: 'd',
